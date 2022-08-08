@@ -1,5 +1,5 @@
 let numero1 = document.getElementById("numero1") as HTMLInputElement;
-let numero2 = document.getElementById("numero2");
+let numero2 = document.getElementById("numero2") as HTMLInputElement;
 let botao = document.getElementById("calcular");
 let res = document.getElementById("resultado");
 
