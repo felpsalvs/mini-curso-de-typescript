@@ -1,12 +1,11 @@
 let numero1 = document.getElementById("numero1") as HTMLInputElement;
 let numero2 = document.getElementById("numero2") as HTMLInputElement;
-let botao = document.getElementById("calcular");
-let res = document.getElementById("resultado");
+const button = document.getElementById("button");
 
-function calcular(n1: number, n2: number) {
-  return +n1 + +n2;
+function sum(a: number, b: number) {
+  return a + b;
 }
 
-botao.addEventListener("click", function () {
-  res.innerHTML = calcular(+numero1.value, +numero2.value).toString();
+button.addEventListener("click", function () {
+  console.log(sum(Number(numero1.value), Number(numero2.value)));
 });
