@@ -52,3 +52,8 @@ let cart: object;
 cart = {
     key: 'fi'
 }
+
+// Type Inference typescript infere o tipo da variável
+let message = 'mensagem definida'
+message = 'string nova'
+
