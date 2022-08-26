@@ -12,3 +12,21 @@ const account: AccountInfo = {
 }
 
 type CharInfo = {
+    nickname: string
+    level: number
+}
+
+const char: CharInfo = {
+    nickname: 'johnmaster',
+    level: 100
+}
+
+// intersection
+type PlayerInfo = AccountInfo & CharInfo
+
+const player: PlayerInfo = {
+    id: 123,
+    name: 'Joao',
+    nickname: 'johnmaster',
+    level: 100
+}
