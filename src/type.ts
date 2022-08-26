@@ -3,12 +3,12 @@ let isDone: boolean
 isDone = false
 
 // string ('foo' or "foo")
-let name: string
-name = 'foo'
+let nam: string
+nam = 'foo'
 
 // number (int or float, hex, binary)
 let num: number
-num = 1xff0
+num = 1
 
 // array (type[])
 let list: number[]
