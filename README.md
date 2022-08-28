@@ -1,6 +1,6 @@
 # Mini-curso de TypeScript
 ### Sobre
-Mini-curso do Willian Justen [https://www.youtube.com/watch?v=mRixno_uE2o&list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_] que introduz um pouco sobre essa tecnologia
+Mini-curso do [Willian Justen](https://www.youtube.com/watch?v=mRixno_uE2o&list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_) que introduz um pouco sobre essa tecnologia
 cada vez mais usada atualmente. Foi abordado sobre types, classe, decorators, type aliases e union, types inference, interfaces, generics e type utilities.
 <br/>
 ### Tecnologias
