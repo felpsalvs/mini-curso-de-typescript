@@ -1,4 +1,4 @@
-// tyoe aliases with intersection (criar um tipo com nome com interseção)
+// type aliases com interserção (criar um tipo com nome com interseção)
 
 type AccountInfo = {
     id: number
@@ -21,7 +21,7 @@ const char: CharInfo = {
     level: 100
 }
 
-// intersection
+// interseção
 type PlayerInfo = AccountInfo & CharInfo
 
 const player: PlayerInfo = {
