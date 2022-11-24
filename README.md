@@ -7,7 +7,6 @@ cada vez mais usada atualmente. Foi abordado sobre types, classe, decorators, ty
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 + Html 5
-+ JavaScript
 + Css3
 + TypeScript
 
